@@ -24,12 +24,14 @@ footer {
 }
 
 .headline {
-	font-family: ‘Arial Narrow’, sans-serif;
+	font-family: 'Lobster', cursive;
 	font-size: 60px;
 }
 
 h1 {
 	color: #E70000;
+	padding: 20px;
+	font-size: 60px;
 }
 
 h3 {
@@ -66,7 +68,6 @@ nav ul li {
 
 nav ul li a {
 	color: #959293;
-	
 }
 
 nav ul li :hover {
@@ -79,6 +80,15 @@ nav ul li :hover {
 #newsletter-container {
 	float: right;
 }
+
+.social-media {
+
+}
+
+.social-media img {
+	width: 40px;
+}
+
 
 .this-page {
 	color: #4B4140 !important;
