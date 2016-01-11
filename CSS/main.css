@@ -8,7 +8,7 @@
 }
 
 .align-right {
-	text-align: right;
+	text-align: right !important;
 }
 
 .clear {
@@ -74,6 +74,10 @@ nav ul li :hover {
 	text-decoration: none;
 	padding: 18px;
 	transition: 0.5s;
+}
+
+#newsletter-container {
+	float: right;
 }
 
 .this-page {
