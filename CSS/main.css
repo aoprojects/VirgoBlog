@@ -1,0 +1,28 @@
+
+.clear {
+	clear: both;
+}
+
+.container {
+
+}
+
+.main-container {
+	width: 80%;
+	background: red;
+	text-align: center;
+}
+
+.nav-text {
+	text-align: center;
+	text-decoration: none;
+	list-style: none;
+	float: left !important;
+	display: block;
+	padding: 10px;
+	margin: 15px;
+}
+
+.nav-text hover {
+	
+}
