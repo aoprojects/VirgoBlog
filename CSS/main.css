@@ -1,4 +1,16 @@
 
+.align-center {
+	text-align: center;
+}
+
+.align-left {
+	text-align: left;
+}
+
+.align-right {
+	text-align: right;
+}
+
 .clear {
 	clear: both;
 }
@@ -7,22 +19,64 @@
 
 }
 
+footer {
+	text-align: right;
+}
+
+.headline {
+	font-family: Copperplate / Copperplate Gothic Light, sans-serif;
+	font-size: 60px;
+}
+
+h1 {
+	color: #E70000;
+}
+
+h3 {
+	color: #E70000;
+}
+
 .main-container {
-	width: 80%;
-	background: red;
+	width: 90%;
 	text-align: center;
 }
 
 .nav-text {
-	text-align: center;
-	text-decoration: none;
-	list-style: none;
-	float: left !important;
-	display: block;
-	padding: 10px;
-	margin: 15px;
+	margin: 0 auto 0 auto;
+	font-family: font-family: ‘Courier New’, Courier, monospace;	
 }
 
-.nav-text hover {
-	
+nav {
+	text-align: center !important;
+	margin: 0 auto 0 auto;
 }
+
+nav ul li {
+	text-align: center;
+	list-style: none;
+	display: block;
+	float: left;
+	padding: 15px;
+	margin: 5px;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+nav ul li a {
+	color: #959293;
+}
+
+nav ul li :hover {
+	color: black;
+	text-decoration: none;
+	border-bottom: 1px solid #BBB3Ab;
+	padding: 18px;
+	transition: 0.5s;
+
+}
+
+
+
+
+
+
