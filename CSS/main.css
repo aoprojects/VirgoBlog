@@ -77,7 +77,9 @@ nav ul li :hover {
 }
 
 .this-page {
-
+	color: #4B4140 !important;
+	font-size: 19px;
+	transition: 0.5s;
 }
 
 
