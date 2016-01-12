@@ -45,7 +45,12 @@ h3 {
 
 .logo-images {
 	width: 70%;
-	margin-top: 10%;
+	margin-top: 5%;
+}
+
+.logo-images-smaller {
+	width: 50%;
+
 }
 
 .main-container {
