@@ -14,8 +14,6 @@
 .blog-article {
 	text-align: left;
 	padding-left: 5%;
-	
-	
 }
 
 .clear {
@@ -43,6 +41,11 @@ h1 {
 
 h3 {
 	color: #E70000;
+}
+
+.logo-images {
+	width: 70%;
+	margin-top: 10%;
 }
 
 .main-container {
