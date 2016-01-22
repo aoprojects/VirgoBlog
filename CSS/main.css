@@ -29,6 +29,12 @@
 	padding-left: 5%;
 }
 
+.border {
+	border-radius: 5px;
+	border: 1px solid #CCC;
+	padding: 2px;
+}
+
 .clear {
 	clear: both;
 }
@@ -88,6 +94,10 @@ li a {
 .main-container {
 	width: 90%;
 	text-align: center;
+}
+
+#mce-EMAIL {
+	border: none;
 }
 
 .nav-text {
