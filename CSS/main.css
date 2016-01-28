@@ -58,8 +58,18 @@ h1 {
 	font-size: 60px;
 }
 
+h2 {
+	font-family: 'Great Vibes', cursive;
+	margin-top: -0.5em;
+
+}
+
 h3 {
 	color: #E70000;
+}
+
+.indent {
+	text-indent: 3em;
 }
 
 .inline {
