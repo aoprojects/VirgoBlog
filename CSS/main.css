@@ -39,6 +39,11 @@
 	clear: both;
 }
 
+.collapse {
+	display: none;
+	text-decoration: none;
+}
+
 .container {
 
 }
