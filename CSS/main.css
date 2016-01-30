@@ -123,12 +123,12 @@ li a {
 	font-family: font-family: ‘Courier New’, Courier, monospace;	
 }
 
-nav {
+#bignav {
 	text-align: center !important;
 	margin: 0 auto 0 auto;
 }
 
-nav ul li {
+#bignav ul li {
 	text-align: center;
 	list-style: none;
 	display: block;
@@ -142,12 +142,12 @@ nav ul li {
 	border: 1px solid #BDBEC0;
 }
 
-nav ul li a {
+#bignav ul li a {
 	color: #959293;
 
 }
 
-nav ul li :hover {
+#bignav ul li :hover {
 	color: black;
 	text-decoration: none;
 	padding: 18px;
@@ -180,14 +180,14 @@ nav ul li :hover {
 }
 
 
-.this-page {
+.this-page { /* for selecting nav on above xs size per page */
 	color: #4B4140 !important;
 	font-size: 19px;
 	transition: 0.5s;
 }
 
 ul {
-	color: #E70000;
+	color: #E70000; /* red color for bullet points */
 }
 
 .white_background {
@@ -196,8 +196,67 @@ ul {
 	border: 1px solid #BDBEC0;
 }
 
+/* for hover over hamburger */
 
 
 
+#hamburger {
+	background: white;
+	border: 1px solid #BDBEC0;
+	text-align: left;
+	border-radius: 5px;
+	padding: 10px;
+	width: 95px;
+	font-size: 18px;
+	white-space: none;
+}
+
+#xsnav:hover ul {
+	display: block;
+	transition: 5.0s ease-in;
+}
+
+#xsnav ul {
+	width: 300px;
+	text-align: left;
+	text-indent: -2em;
+	border-radius: 5px;
+	border-right: 1px solid #BDBEC0;
+	display: none;
+	position: absolute;
+	left: 10px;
+
+
+}
+
+
+
+#xsnav ul li {
+	list-style: none;
+	padding: 10px 30px;
+	font-weight: bold;
+	white-space: none;
+	width: 100%;
+	background: white;
+	text-indent: 2em;
+	border-left: 1px solid #BDBEC0;
+}
+
+
+#xsnav ul li:hover {
+	list-style: none;
+	background: #DFDFDF;
+	white-space: none;
+
+}
+
+#xsnav ul li a:hover {
+	text-decoration: none;
+	color: #E70000;
+}
+
+
+
+/* end for hamburger nav */
 
 
