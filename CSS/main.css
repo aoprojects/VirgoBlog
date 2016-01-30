@@ -29,6 +29,10 @@
 	padding-left: 5%;
 }
 
+body {
+	background: url('../images/grey.png');
+}
+
 .border {
 	border-radius: 5px;
 	border: 1px solid #CCC;
@@ -41,7 +45,6 @@
 
 .collapse {
 	display: none;
-	text-decoration: none;
 }
 
 .container {
@@ -134,12 +137,14 @@ nav ul li {
 	margin: 10px;
 	font-weight: bold;
 	font-size: 18px;
-	border: 1px solid #E7E6D9;
+	background: white;
 	border-radius: 10px;
+	border: 1px solid #BDBEC0;
 }
 
 nav ul li a {
 	color: #959293;
+
 }
 
 nav ul li :hover {
@@ -183,6 +188,12 @@ nav ul li :hover {
 
 ul {
 	color: #E70000;
+}
+
+.white_background {
+	background: white;
+	border-radius: 5px;
+	border: 1px solid #BDBEC0;
 }
 
 
