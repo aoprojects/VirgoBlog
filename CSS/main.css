@@ -98,15 +98,25 @@ li a {
 }
 
 .logo-images {
-	width: 70%;
-	margin-top: 15%;
-	margin-bottom: 15%;
+	width: 300px;
+	position: relative;
+	margin: 0 auto 0 auto;
+	/*bottom: 1em;
+	top: 1em;
+	left: 2em;
+	margin-top: 10%;
+	margin-bottom: 10%;*/
 }
 
 .logo-images-smaller {
-	width: 40%;
-	margin-top: 10%;
-	margin-bottom: 10%;
+	top: 5em;
+}
+
+.logo-images-xs {
+	width: 70%;
+	top: 3em;
+	width: 200px;
+	margin: 15px;
 }
 
 .main-container {
