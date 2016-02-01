@@ -20,6 +20,15 @@
 	background: rgba(235, 235, 235, 0.3);
 }
 
+#articles_list li {
+	list-style: none;
+
+}
+
+.articles-list-hide {
+	display: none;
+}
+
 .block {
 	display: block;
 }
@@ -41,10 +50,6 @@ body {
 
 .clear {
 	clear: both;
-}
-
-.collapse {
-	display: none;
 }
 
 .container {

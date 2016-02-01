@@ -1,7 +1,8 @@
 
-	$("#articles_summary").click(function() {
-		$(this).next().fadeToggle("fast");
-		$(this).next().toggleClass("collapse");
+	$('#articles_summary').click(function() {
+		console.log("clicked");
+		$( this ).next().fadeToggle( "fast" );
+		$( this ).next().toggleClass("collapse");
 	});
 
 
