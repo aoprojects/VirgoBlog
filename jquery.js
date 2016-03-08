@@ -1,9 +1,10 @@
-
+$(document).ready(function() {
 	$('#articles_summary').click(function() {
 		console.log("clicked");
 		$( this ).next().fadeToggle( "fast" );
 		$( this ).next().toggleClass("collapse");
 	});
+});
 
 
 
